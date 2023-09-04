@@ -69,13 +69,13 @@ img{
 .res11{
     width:70px;
     height: 70px;
-    background-image: url("/weatherApp/weather-app-img/images/humidity.png");
+    background-image: url("humidity.png");
     text-align: center;
 }
 .res13{
     width:70px;
     height: 70px;
-    background-image: url("/weatherApp/weather-app-img/images/wind.png");
+    background-image: url("wind.png");
     text-align: center;
 }
 .res11 p{
@@ -154,7 +154,7 @@ img{
     .res11{
         width:70px;
         height: 70px;
-        background-image: url("/weatherApp/weather-app-img/images/humidity.png");
+        background-image: url("humidity.png");
         text-align: center;
     }
     .res11 p{
@@ -163,7 +163,7 @@ img{
     .res13{
         width:70px;
         height: 70px;
-        background-image: url("/weatherApp/weather-app-img/images/wind.png");
+        background-image: url("wind.png");
         text-align: center;
     }
     .res13 p{
