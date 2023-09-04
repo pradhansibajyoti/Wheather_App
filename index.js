@@ -8,7 +8,7 @@ let result =document.querySelector('.res');
      result.innerHTML=
      `<div class='temp'>
      <h3>${data.name}</h3>
-      <img src='/weatherApp/weather-app-img/images/clouds.png'>
+      <img src='clouds.png'>
       <p>${data.main.temp} &#8451;</p>
     </div>
     <div class="res1">
