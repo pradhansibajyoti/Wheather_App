@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(#2E3192,#1BFFFF);
+    border: 2px solid black;
+    background-color:#2E3192;
+    
+}
+.main{
+    height: 600px;
+    width:600px;
+    background:#1BFFFF;
+    position: relative;
+    top: 10%; 
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    /*align-items: center;*/
+   
+}
+.search{
+    
+    
+    margin-top:40px;
+} 
+input[type=text]
+{
+    outline: none;
+}
+.res{
+    display: flex;
+    flex-direction: column; 
+    justify-self:center;
+   
+}
+.temp{
+    width:100px;
+    height:30px;
+    text-align:center;
+    align-self: center;
+    margin-top: 40px;
+    /*border:2px solid black;*/
+}
+img{
+    width:100px;
+    height: 100px;
+}
+.res1{
+    display: flex;
+    justify-content: space-around;
+    gap:60px;
+    margin-top:200px;
+}
+.img1{
+    width:60px;
+    height: 60px;
+}
+.res11{
+    text-align: center;
+}
+.res11{
+    width:70px;
+    height: 70px;
+    background-image: url("/weatherApp/weather-app-img/images/humidity.png");
+    text-align: center;
+}
+.res13{
+    width:70px;
+    height: 70px;
+    background-image: url("/weatherApp/weather-app-img/images/wind.png");
+    text-align: center;
+}
+.res11 p{
+    margin-top: 30px;
+}
+.res13 p{
+    margin-top: 30px;
+}
+.res10{
+    text-align: center;
+}
+@media screen and (max-width:480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        border: none;
+        background:#1BFFFF;
+    }
+    .main{
+        height:100%;
+        width:100%;
+        background:#1BFFFF;
+        position: absolute;
+        /* top:0%; */
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        /*align-items: center;*/
+       
+    }
+    .search{
+    
+    
+        margin-top:40px;
+    } 
+    input[type=text]
+    {
+        outline: none;
+    }
+    .res{
+        display: flex;
+        flex-direction: column; 
+        justify-self:center;
+       
+    }
+    .temp{
+        width:100px;
+        height:30px;
+        text-align:center;
+        align-self: center;
+        margin-top: 40px;
+        /*border:2px solid black;*/
+    }
+    img{
+        width:100px;
+        height: 100px;
+    }
+    .res1{
+        display: flex;
+        justify-content: space-around;
+        gap:60px;
+        margin-top:250px;
+    }
+    .img1{
+        width:60px;
+        height: 60px;
+    }
+    .res11{
+        text-align: center;
+    }
+    .res11{
+        width:70px;
+        height: 70px;
+        background-image: url("/weatherApp/weather-app-img/images/humidity.png");
+        text-align: center;
+    }
+    .res11 p{
+        margin-top: 30px;
+    }
+    .res13{
+        width:70px;
+        height: 70px;
+        background-image: url("/weatherApp/weather-app-img/images/wind.png");
+        text-align: center;
+    }
+    .res13 p{
+        margin-top: 30px;
+    }
+    .res10{
+        text-align: center;
+    }
+   
+}
